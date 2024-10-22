@@ -1,18 +1,16 @@
 import random
+
 def main():
-    numbers = [random.randint(1, 100) for _ in range(10)]
-    
-    print("Original list of numbers:")
-    print(numbers)
-    
+    random_numbers = [random.randint(1, 100) for _ in range(10)]
+    print("Original list of numbers:", random_numbers)
+
     index = 0
-    while index < len(numbers):
-        if numbers[index] % 2 == 0:
-            numbers.pop(index)
+    while index < len(random_numbers):
+        if random_numbers[index] % 2 == 0:
+            random_numbers.pop(i)
         else:
             index += 1
-    
-    print("List after removing even numbers:")
-    print(numbers)
+
+    print("List after removing even numbers:", random_numbers)
 
 main()
