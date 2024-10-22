@@ -7,7 +7,7 @@ def main():
     index = 0
     while index < len(random_numbers):
         if random_numbers[index] % 2 == 0:
-            random_numbers.pop(i)
+            random_numbers.pop(index)
         else:
             index += 1
 
