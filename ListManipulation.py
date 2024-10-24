@@ -3,7 +3,7 @@ def main():
     values.sort()
     values.extend([7, 8])
     
-    if 1 in values:
+    while 1 in values:
         values.remove(1)
     
     print(values)
