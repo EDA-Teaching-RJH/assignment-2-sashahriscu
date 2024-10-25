@@ -4,11 +4,9 @@ def main():
 # sorting values
     values.sort()
 # adding .extend after sort as the instruction is to add the 7 & 8 AFTER the list.
-    values.extend([7, 8])
-    
-# while instead of if : if does not guarantee removal of integer 1.
     while 1 in values:
         values.remove(1)
+    values.extend([7, 8])
     
     print(values)
 # sorted values returned
