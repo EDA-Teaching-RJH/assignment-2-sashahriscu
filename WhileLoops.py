@@ -10,12 +10,12 @@ def main():
     while guessed_number != correct_number:
 # prompt user to guess number
         guessed_number = int(input("Enter your guess: "))
-      
-        if guessed_number < correct_number:
-            print("Too low")
-        elif guessed_number > correct_number:
-            print("Too high")
-        else:
-            print(f"Nice, you guessed the correct number : {correct_number}")
-            
+        print("Try again")
+        # if guessed_number < correct_number:
+        #     print("Too low")
+        # elif guessed_number > correct_number:
+        #     print("Too high")
+        # else:
+        #     print(f"Nice, you guessed the correct number : {correct_number}")
+    print(f"Nice, you guessed the correct number : {correct_number}")      
 main()
